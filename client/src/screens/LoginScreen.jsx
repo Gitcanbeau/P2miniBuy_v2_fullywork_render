@@ -155,11 +155,11 @@ const LoginScreen = () => {
 										{showPasswordReset && <PasswordForgottenForm />}
 									</FormControl>
 								</Stack>
-								{/* <Stack spacing='6'>
+								<Stack spacing='6'>
 									<Button colorScheme='purple' size='lg' fontSize='md' isLoading={loading} type='submit'>
 										Sign in
 									</Button>
-									<Button
+									{/* <Button
 										leftIcon={<FcGoogle />}
 										colorScheme='purple'
 										size='lg'
@@ -167,8 +167,8 @@ const LoginScreen = () => {
 										isLoading={loading}
 										onClick={() => handleGoogleLogin()}>
 										Google sign in
-									</Button>
-								</Stack> */}
+									</Button> */}
+								</Stack>
 							</Stack>
 						</Box>
 					</Stack>
